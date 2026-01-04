@@ -844,7 +844,6 @@ ul {
     animation: contactFadeUp 0.6s ease both;
 }
 
-/* SECTION DIVIDER */
 .contact::before {
     content: "";
     position: absolute;
@@ -861,7 +860,6 @@ ul {
     );
 }
 
-/* GRID */
 .contact-grid {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
@@ -869,7 +867,6 @@ ul {
     align-items: start;
 }
 
-/* LEFT CONTENT */
 .contact-text {
     color: var(--color-white-muted);
     font-size: 1.1rem;
@@ -878,14 +875,12 @@ ul {
     max-width: 520px;
 }
 
-/* DETAILS */
 .contact-details {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-/* ITEM */
 .contact-item {
     display: flex;
     gap: 1.2rem;
@@ -900,14 +895,12 @@ ul {
     transform: translateX(6px);
 }
 
-/* ICON */
 .contact-icon {
     font-size: 1.4rem;
     width: 36px;
     line-height: 1;
 }
 
-/* TEXT */
 .contact-item strong {
     display: block;
     font-family: var(--font-heading);
@@ -922,7 +915,6 @@ ul {
     line-height: 1.6;
 }
 
-/* FORM */
 .contact-form {
     position: relative;
     background: linear-gradient(180deg, #121212, #0b0b0b);
@@ -932,7 +924,6 @@ ul {
     animation: formPulse 8s ease-in-out infinite;
 }
 
-/* FORM EDGE ACCENT */
 .contact-form::before {
     content: "";
     position: absolute;
@@ -944,6 +935,7 @@ ul {
         rgba(255, 51, 102, 0.6),
         transparent 40%
     );
+
     -webkit-mask:
         linear-gradient(#000 0 0) content-box,
         linear-gradient(#000 0 0);
@@ -952,13 +944,11 @@ ul {
     pointer-events: none;
 }
 
-/* GROUP */
 .form-group {
     position: relative;
     margin-bottom: 1.75rem;
 }
 
-/* FOCUS TRAIL */
 .form-group::after {
     content: "";
     position: absolute;
@@ -974,7 +964,6 @@ ul {
     width: 100%;
 }
 
-/* LABEL */
 .form-group label {
     display: block;
     font-family: var(--font-heading);
@@ -986,7 +975,6 @@ ul {
     color: var(--color-white-subtle);
 }
 
-/* INPUTS */
 .form-group input,
 .form-group select {
     width: 100%;
@@ -1000,7 +988,6 @@ ul {
     transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* FOCUS */
 .form-group input:focus,
 .form-group select:focus {
     outline: none;
@@ -1008,12 +995,10 @@ ul {
     box-shadow: 0 0 0 3px rgba(255, 51, 102, 0.15);
 }
 
-/* PLACEHOLDER */
 .form-group input::placeholder {
     color: var(--color-white-subtle);
 }
 
-/* SELECT */
 .form-group select {
     cursor: pointer;
     appearance: none;
@@ -1022,7 +1007,6 @@ ul {
     background-position: right 1rem center;
 }
 
-/* BUTTON */
 .contact-form .btn-full {
     margin-top: 1.5rem;
     padding: 1.2rem;
@@ -1041,7 +1025,6 @@ ul {
     box-shadow: 0 6px 15px rgba(255, 51, 102, 0.25);
 }
 
-/* ANIMATIONS */
 @keyframes contactFadeUp {
     from {
         opacity: 0;
@@ -1062,7 +1045,6 @@ ul {
     }
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
     .contact-grid {
         grid-template-columns: 1fr;
