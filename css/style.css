@@ -253,7 +253,7 @@ ul {
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #1a0a0a 0%, #0a0a0a 50%, #0a1a1a 100%);
-    background-image: url('./assets/img1.jpg');
+    background-image: url('../assets/img1.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
